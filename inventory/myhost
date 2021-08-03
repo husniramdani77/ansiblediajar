@@ -1,4 +1,4 @@
-[all:var]
+[all:vars]
 
 [myhost]
 pem-server
