@@ -1,0 +1,9 @@
+---
+name: Update repository Ubuntu
+host: myhost
+become: true
+
+task: 
+  - name: Run the equivalent of "apt-get update" as a separate step
+  apt:
+    update_cache: yes
