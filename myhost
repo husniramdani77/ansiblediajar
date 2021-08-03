@@ -1,0 +1,8 @@
+[all:var]
+
+[myhost]
+pem-server
+
+[allhost]
+pem-server
+ubuntu204
