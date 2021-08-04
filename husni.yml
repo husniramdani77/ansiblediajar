@@ -12,7 +12,11 @@
     yum:
       name: mysql-server
       state: latest
-  - name: enable service mysql
+  - name: enable service mysql (autostart on boot)
     service:
       name: mysql
-      state: enabled
+      enabled: yes
+  - name: start service mysql
+    service:
+      name: mysql
+      state: started 
